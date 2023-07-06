@@ -1,0 +1,23 @@
+{
+	"name": "newsblur_theme",
+	"version": "0.0.0",
+	"description": "newsblur.com has support for custom JS and CSS to be uploaded for a user to customize the application, these are my customizations.",
+	"main": "index.js",
+	"scripts": {
+		"build": "sass src/:build/ && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tuckersn/newsblur_theme.git"
+	},
+	"author": "Tucker Sneed",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tuckersn/newsblur_theme/issues"
+	},
+	"homepage": "https://github.com/tuckersn/newsblur_theme#readme",
+	"dependencies": {
+		"sass": "^1.63.6",
+		"typescript": "^5.1.6"
+	}
+}

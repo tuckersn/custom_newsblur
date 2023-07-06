@@ -1,0 +1,91 @@
+$default-text-color: rgb(224, 224, 215);
+$inactive-text-color: rgb(158, 158, 142);
+$bright-text-color: white;
+
+
+$default-background: rgb(11, 11, 14);
+$light-background: rgb(29, 28, 36);
+$very-light-background: rgb(44, 51, 83);
+
+
+
+
+
+
+
+
+
+
+.left-pane {
+    background-color: $default-background !important;
+}
+
+.NB-story-title-container {
+    box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.75);
+}
+
+
+
+.NB-feeds-header-title {
+    color: $default-text-color !important;
+}
+
+.NB-storytitles-title {
+    color: $default-text-color !important;
+}
+
+
+.NB-storytitles-content-preview {
+    color: rgb(90, 109, 122) !important;
+}
+
+
+.NB-storytitles-grid-bottom {
+    .NB-middot, .NB-storytitles-author, .story_date {
+        color: rgb(71, 135, 180) !important;
+    }
+}
+
+
+
+
+
+
+
+.NB-feeds-header-title {
+    background-color: rgb(29, 28, 36);
+    box-sizing: content-box;
+    border-bottom: 1px solid rgb(48, 48, 48);
+}
+
+.NB-feedlist, .feed {
+    background-color: rgb(54, 54, 58) !important;   
+}
+
+.feed_title {
+    color: $default-text-color !important;
+}
+
+.folder_title {
+    color: $bright-text-color !important;
+    font-weight: bold;
+}
+
+
+.NB-feeds-header-user, .NB-dark .NB-feedbar, .NB-dark .NB-taskbar-container, .NB-dark #story_titles .NB-feedbar, .NB-dark .NB-splash-info.NB-splash-bottom {
+    background-color: rgb(29, 28, 36) !important;
+}
+
+.NB-module-header {
+    background-color: $very-light-background !important;
+    color: $default-text-color !important;
+    box-shadow: 3px 4px 11px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 11px -2px rgba(0,0,0,0.75);
+}
+
+.NB-module-item-intro {
+    background-color: $light-background !important;
+}
